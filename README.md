@@ -12,5 +12,5 @@ You can run it on the terminal with the following command:
 
 nextflow run nextflow2\_bioinf\_example.nf --quast\_path /path/to/quast.py
 
-**Please hardcode the paths of the two (forward and reverse strands) input raw fastq files into the nextflow script.**
+**Please hardcode the paths of the two (forward and reverse strands) input raw fastq files into the nextflow script before running the above command in your terminal.**
 
