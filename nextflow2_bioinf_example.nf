@@ -6,7 +6,7 @@ params.quast_path = '' // User must provide this path
 if (params.quast_path == '') {
     println("""\nERROR: Missing required parameters.
     Usage:
-        nextflow run vkaushik32_nextflow2.nf --quast_path /path/to/quast.py
+        nextflow run nextflow2_bioinf_example.nf --quast_path /path/to/quast.py
     Please provide all required file paths.\n""")
     System.exit(1) // Exit if parameters are not provided
 }
